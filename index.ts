@@ -10,7 +10,3 @@ app.use('/messages', messageRouter);
 app.listen(port, () => {
     console.log("Listening on port " + port);
 })
-
-const run = async () => {
-
-}
